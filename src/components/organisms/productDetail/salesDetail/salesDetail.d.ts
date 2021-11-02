@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { IDefaultComponentProps } from '../../../../utils';
-interface IWishlistItem {
+import { SelectOption } from '../../../atoms/select';
+interface IWishlistItem extends SelectOption {
     label: string;
     value: string;
     isShared: boolean;
@@ -28,6 +29,7 @@ export interface Props extends IDefaultComponentProps {
     showAddToWishlist?: boolean;
     showSapBlocked?: boolean;
     showQuantityField?: boolean;
+    showContactLink?: boolean;
     minQuantityWithoutConfirmation?: number;
     createdWishlistCode?: string;
     onChange?: (data: ISalesDetailData) => void;

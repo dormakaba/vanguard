@@ -5,6 +5,8 @@ export declare type SelectOption = {
     value?: ReactText;
     component?: ReactNode;
     isNew?: boolean;
+    color: 'default' | 'green' | 'red' | 'yellow';
+    disabled?: boolean;
 };
 declare type BaseProps = Pick<React.SelectHTMLAttributes<HTMLSelectElement>, 'disabled' | 'form' | 'name' | 'required' | 'className' | 'id' | 'style' | 'datatype' | 'autoFocus'>;
 export interface SelectCommonProps extends BaseProps {

@@ -13,6 +13,7 @@ declare const _default: {
     globe: string;
     hidden: string;
     locked: string;
+    menu: string;
     minus: string;
     pin: string;
     plus: string;
@@ -29,5 +30,8 @@ declare const _default: {
     resize: string;
     compressed: string;
     normal: string;
+    warning: string;
+    info: string;
+    simulateprice: string;
 };
 export default _default;

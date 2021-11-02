@@ -30,6 +30,7 @@ export interface NumberInputProps {
     width?: number | string;
     placeholder?: string;
     noPadding?: boolean;
+    disabled?: boolean;
 }
-export declare const NumberInput: ({ name, id, testid, "aria-labelledby": ariaLabelledBy, "aria-label": ariaLabel, value: defaultValue, onChange, label, caption, className, step, tabIndex, placeholder, size, width, }: NumberInputProps) => JSX.Element;
+export declare const NumberInput: ({ name, id, testid, "aria-labelledby": ariaLabelledBy, "aria-label": ariaLabel, value, onChange, label, caption, className, step, tabIndex, placeholder, size, width, disabled, }: NumberInputProps) => JSX.Element;
 export {};
