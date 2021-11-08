@@ -33,5 +33,6 @@ declare const _default: {
     warning: string;
     info: string;
     simulateprice: string;
+    error: string;
 };
 export default _default;

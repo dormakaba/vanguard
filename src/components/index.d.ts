@@ -39,7 +39,6 @@ export { FileDownloadHistory } from './organisms/filedownload/history';
 export { ImageGallery } from './organisms/imagegallery/imagegallery';
 export { AdditionalContent } from './organisms/productDetail/additionalContent/additionalContent';
 export { ImageSlot } from './organisms/productDetail/imageSlot/imageSlot';
-export { SalesDetail } from './organisms/productDetail/salesDetail/salesDetail';
 export { ScalePricing } from './organisms/scalePricing/scalePricing';
 export { Scrollable } from './organisms/scrollable/scrollable';
 export { Template as MyDocumentsTemplate } from './pages/mydocuments';
